@@ -1,6 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import { Button, Typography } from "antd";
+import { Button, Typography, Input } from "antd";
 
 const Home: NextPage = () => {
   return (
@@ -15,6 +15,7 @@ const Home: NextPage = () => {
         <Typography.Title className="text-7xl">
           GETTING STARTED WITH TYPESCRIPT
         </Typography.Title>
+        <Input placeholder="Enter Name Boss" />
         <Button type="primary">Submit</Button>
       </main>
     </div>
